@@ -1,0 +1,45 @@
+Initialize a new project:
+
+Open your terminal and run the following commands to create a new Vite project with React template:
+
+bash
+Copy code
+npx create-vite my-react-app --template react
+This will create a new folder named my-react-app with a basic React project structure.
+
+Navigate to the project folder:
+
+bash
+Copy code
+cd my-react-app
+Start the development server:
+
+Run the following command to start the Vite development server:
+
+bash
+Copy code
+npm run dev
+This command will start the development server, and you can access your app in your browser at http://localhost:3000.
+
+Edit the React component:
+
+Open the src/App.js file in your code editor and replace its contents with the following code:
+
+jsx
+Copy code
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>Hello, World!</h1>
+    </div>
+  );
+}
+
+export default App;
+View your app:
+
+Go to http://localhost:3000 in your web browser, and you should see your "Hello, World!" message displayed on the page.
+
+That's it! You've created a simple "Hello World" React app using Vite and React.js. You can now start building more complex applications by adding components, state management, and other features as needed.
